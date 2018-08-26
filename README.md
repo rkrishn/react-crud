@@ -4,3 +4,5 @@
 
 [Example](https://rkrishn.github.io/reactcrud)
 
+![screen-shot](https://raw.githubusercontent.com/rkrishn/reactcrud/41fbcea0/reactcrud.gif)
+
