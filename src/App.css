@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #bba6456e !important;
+}
+.avatar-image {
+  width: 100px;
+  height: 50px;
+}
+.table-container .page-link.disabled {
+  cursor: not-allowed;
+  background: #ebefdb;
+}
+.table th {
+  text-align: center
+}
+.table-container .page-link.enabled {
+  cursor: pointer;
+  background: white;
+}
+.page-item.Active .page-link{
+  background: #009688;
+  color: white;
+}
+#root {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 1000px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.table-header {
+  display: inline-block;
+  width: 100%;
+}
+.table-header .btn{
+  float: right;
+  margin-top: 20px;
+}
+.App-logo {
+  animation: App-logo-appearance 1.6s ease-in;
+  height: 140px;
+  padding: 15px 0;
+  border-radius: 3px;
+}
+
+.table-container .table>tbody tr td {
+  vertical-align: middle;
+}
+.table tbody tr:hover {background-color: #f5f5f5}
+
+.table tbody tr:nth-child(odd) {background-color: #f2f2f2}
+.table thead tr {
+  background: #91c0e2;
+}
+.table-container .page-link{
+  cursor: pointer;
+}
+.form-group input[type='checkbox'] {
+  float: left;
+  width: 40px;
+}
+
+input[type='submit']{
+  display: block;
+  margin: auto;
+  width: 200px;
+  margin-top: -10px;
+}
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.auto-delete-icon {
+  cursor: pointer;
+}
+
+#page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+}
+
+@keyframes App-logo-appearance {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
